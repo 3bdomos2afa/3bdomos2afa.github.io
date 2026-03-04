@@ -2,9 +2,12 @@ import { useState, useCallback } from "react";
 import { AnimatePresence } from "framer-motion";
 import LoadingScreen from "@/components/LoadingScreen";
 import GlowingBlobs from "@/components/GlowingBlobs";
+import CustomCursor from "@/components/CustomCursor";
+import ParticlesBackground from "@/components/ParticlesBackground";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -25,14 +28,18 @@ const Index = () => {
 
       {!loading && (
         <div className="relative min-h-screen bg-background overflow-x-hidden">
+          <CustomCursor />
           <GlowingBlobs />
+          <ParticlesBackground />
           <Navbar />
           <HeroSection />
           <SvgWave />
           <AboutSection />
           <SvgWave flip />
-          <ProjectsSection />
+          <SkillsSection />
           <SvgWave />
+          <ProjectsSection />
+          <SvgWave flip />
           <ContactSection />
           <Footer />
         </div>
