@@ -6,6 +6,10 @@ My personal portfolio website, at **https://3bdomos2afa.github.io**
 
 > Deployment is temporarily unavailable. You can run the project locally with the steps below.
 
+## Preview
+
+![Local production build preview](docs/preview.svg)
+
 ## Tech stack
 
 - React + TypeScript
