@@ -4,7 +4,7 @@
 
 My personal portfolio website, at **https://3bdomos2afa.github.io**
 
-> Deployment is temporarily unavailable. You can run the project locally with the steps below.
+> The live site is a locally built snapshot published from `gh-pages`. Source changes on `main` need a fresh build and deployment; the custom deployment workflow is included for when account automation is available.
 
 ## Preview
 
